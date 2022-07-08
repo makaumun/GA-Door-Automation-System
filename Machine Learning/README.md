@@ -9,7 +9,7 @@
 - Install OpenCV though [OpenCV](https://sourceforge.net/projects/opencvlibrary/). add it to the library of your code editor of choice.
 - Install Python3 though [Python3](https://www.python.org/downloads/)
 - pip install numpy
-- For the Haarcascade file, from [haarcascade for face](https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml) Copy the file when raw and create a new file in your folder and save as "haarcascade.xml" and paste the contents into the file. Save.
+- For the Haarcascade file, from [haarcascade for face](https://github.com/opencv/opencv/blob/4.x/data/haarcascades/haarcascade_frontalface_default.xml) , copy the file when raw and create a new file in your folder. Save as "haarcascade.xml" and paste the contents into the file. Save.
 However I have made the one currently in use in the repository.
 
 ## Face Detection
@@ -24,7 +24,7 @@ This project detects an face in a photo and assigns it to it respective label as
 
 ### How to use Face Recognition
 1. Train model with data of choice. 
-- Create a folder of the data(peoples faces, self created or downloaded) of you choice and label them according to its contents(features). The labels are the names to your folders. ( in this example i used pictures of celebrities for training)
+- Create a folder of the data(peoples faces, self created or downloaded) of you choice and label them according to its contents(features). The labels are the names to your folders. (In this example I used pictures of celebrities for training)
 - Add path to your training folder.
 - The model, features and labels are saved through code as yml files  and numpy (np) files respectively to be used in predicting.
 
